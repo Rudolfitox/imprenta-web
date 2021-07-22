@@ -4,9 +4,392 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap CSS -->
+     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/styles.css" rel="stylesheet">
     <title>GAB Impresión</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-body shadow-sm py-0 menu" >
+        <div class="container-fluid"> <!--110,60 -->
+          <div>
+            <img src="images/LOGO-CON-BLANCO.png" alt="" width="130" height="90" style="object-fit: cover;">
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item mx-5">
+                <a class="nav-link active option-menu" aria-current="page" href="#section-inicio">Inicio</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link active option-menu" aria-current="page" href="#section-nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link active option-menu" aria-current="page" href="#section-servicios">Servicios</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link active option-menu" aria-current="page" href="#section-galeria">Galería</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link active option-menu animate__backInDown" aria-current="page" href="#section-contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <section id="section-inicio" class="container-fluid section-home mb-5" style="height: 100vh;">
+      <div class="box-image">
+          <div class="inner-image">
+              <div >
+                  <img src="images/LOGO-CON-NEGRO-.png" class="size-image animate__animated animate__backInDown">
+              </div>
+              <!-- <div class="form-check form-check-inline">
+                <input id="check1" class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">blah blah</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input id="check2" class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">blah blah2</label>
+              </div> -->
+          </div>
+      </div>
+  </section>
+  <section id="section-nosotros" class="container-fluid section-about" style="height: 100vh;">
+    <h3 class="text-center">Nosotros</h3>
+    <!-- <div class="wrapper">
+      <div class="container1" id="c3">
+        <div class="" id="s3">
+          <div class="info">
+            <h3 class="title-card">Visión</h3>
+            <p class="text-card">
+              Ser una empresa integrada por especialistas enfocados en buenos resultados trabajando con EMPATÍA, CALIDAD, CREATIVIDAD, RESPONSABILIDAD Y HONESTIDAD
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container1" id="c0">
+        <div class="story" id="s0">
+          <div class="info">
+            <h3 class="title-card">Filosofia</h3>
+            <p class="text-card"> 
+              La parte medular de nuestro negocio son los clientes por lo que ponemos especial atención en sus necesidades para que de manera funcional y creativa les propongamos las soluciones que está esperando.
+              Consideramos a la empatía una de nuestras mejores herramientas ya que a través de ella podemos entender las peticiones que nuestros clientes nos hacen tomando siempre en cuenta que debemos
+              servir como nos gustaría ser servidos.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container1" id="c1">
+        <div class="story" id="s1">
+          <div class="info">
+            <h3 class="title-card">Misión</h3>
+            <p class="text-card">
+              Contar con un alto sentido de empatía hacía nuestros clientes, cumpliendo con los acuerdos hechos entre ambas partes. Persiguiendo la retribución continúa de nuestros clientes.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container1" id="c2">
+        <div class="story" id="s2">
+          <div class="info">
+            <h3 class="title-card">Nosotros</h3>
+            <p class="text-card">
+              Somos una empresa dedicada a la impresión y los servicios de comunicación gráfica en general.
+              Iniciamos operaciones en el año 2012 y nos ocupamos sencillamente de serles útil a nuestros aliados y clientes
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </section>
+  <section id="section-servicios" class="container-fluid section-about ">
+    <h3 class="text-center">Servicios</h3>
+    <div class="row mt-5">
+      <div class="col-sm-4 d-flex justify-content-center" style="">
+        <div id="service1" class="card mb-4 card-service" style="width: 20rem;">
+          <div class="card-body">
+            <div class="text-center">
+              <img id="imgS1" src="images/PROMOCIONALES MORADO.svg" alt="" width="100" height="100">
+            </div>
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div id="service2" class="card mb-4 card-service" style="width: 20rem;">
+          <div class="card-body">
+            <div class="text-center">
+              <img id="imgS2" src="images/PUBLICIDAD DIGITAL MORADO.svg" alt="" width="50" height="100">
+            </div>
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div id="service3" class="card mb-4 card-service" style="width: 20rem;">
+          <div class="card-body">
+            <div class="text-center">
+              <img id="imgS3" src="images/OFFSET MORADO.svg" alt="" width="50" height="100">
+            </div>
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- INCIO SEGUNDO RENGLON DE CARDS -->
+    <div class="row">
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div id="service4" class="card mb-4 card-service " style="width: 20rem;">
+          <div class="card-body">
+            <div class="text-center">
+              <img id="imgS4" src="images/SELLOS MORADO.svg" alt="" width="50" height="100">
+            </div>
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div id="service5" class="card mb-4 card-service d-flex justify-content-center" style="width: 20rem;">
+          <div class="card-body">
+            <div class="text-center">
+              <img id="imgS5" src="images/UNIFORMES MORADO.svg" alt="" width="100" height="100">
+            </div>
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div id="service6" class="card mb-4 card-service d-flex justify-content-center" style="width: 20rem;">
+          <div class="card-body">
+            <div class="text-center">
+              <img id="imgS6" src="images/INVITACIONES MORADO.svg" alt="" width="50" height="100">
+            </div>
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN SEGUNDO RENGLON DE CARDS -->
+    <!-- INICIO TERCER REGLON DE CARDS -->
+      <div class="row">
+        <div class="col-sm-4 d-flex justify-content-center offset-md-2">
+          <div class="card mb-4 card-service" style="width: 20rem;">
+            <div class="card-body">
+              <div class="text-center">
+                <img src="images/OFFSET MORADO.svg" alt="" width="50" height="100">
+              </div>
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 d-flex justify-content-center">
+          <div class="card mb-4 card-service" style="width: 20rem;">
+            <div class="card-body">
+              <div class="text-center">
+                <img src="images/SELLOS MORADO.svg" alt="" width="50" height="100">
+              </div>
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- FIN TERCER RENGLON DE CARDS -->
+  </section>
+  <section id="section-servicios" class="container-fluid section-about" style="height: 100vh; background-color: greenyellow;">
+    <h3 class="text-center">Galería</h3>
+  </section>
+  <section id="section-servicios" class="container-fluid section-about" style="height: 100vh; background-color: greenyellow;">
+    <h3 class="text-center">Clientes</h3>
+  </section>
+  <section id="section-servicios" class="container-fluid section-about" style="height: 100vh;">
+    <h3 class="text-center">Contacto</h3>
+    <div class="row mt-5">
+      <div class="col-12">
+        <div style="width: 50%; margin: 0 auto;">
+          <form class="row g-3 shadow p-3 mb-5 bg-body rounded">
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Alejandra Guadalupe">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Apellidos</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Villanueva Hernandez">
+            </div>
+            <div class="col-md-12">
+              <label for="inputEmail4" class="form-label">Correo electronico</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-12">
+              <label for="inputPassword4" class="form-label">Teléfono</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-12">
+              <label for="inputCity" class="form-label">Asunto</label>
+              <textarea class="form-control" name="" id="" rows="5"></textarea>
+            </div>
+            <div class="d-grid gap-2">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div style="width: 100%;display: flex; justify-content: center;">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14781.53503481959!2d-100.9397709!3d22.1494596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x580cfb93d0ed91c8!2sGab%20Centro%20de%20Impresion!5e0!3m2!1ses-419!2smx!4v1625447147581!5m2!1ses-419!2smx" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
 </body>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    // const d = document,
+    // $ck1 = d.querySelector('#check1'),
+    // $ck2 = d.querySelector('#check2');
+
+    // d.addEventListener('change',e => {
+    //   if(e.target.matches('#check1')){
+    //      console.log('HOLA HOLA',$ck1);
+    //      if($ck2.checked){
+    //        console.log('CUMPLE CUMPLE');
+    //        $ck2.checked=false;
+    //      }
+    //   }
+    // });
+
+    // d.addEventListener('change',e => {
+    //   if(e.target.matches('#check2')){
+    //      console.log('HOLA HOLA',$ck2);
+    //      if($ck1.checked){
+    //        console.log('CUMPLE CUMPLE');
+    //        $ck1.checked=false;
+    //      }
+    //   }
+    // });
+
+</script>
+
+<script>
+  const d = document,
+  $card1 = d.querySelector('#service1'),
+  $imgS1 = d.querySelector('#imgS1');
+  $card1.onmouseover = $card1.onmouseout = $card1.onmousemove = handler;
+
+
+  function handler(event) {
+    if (event.type == 'mouseover') {
+        // event.target.style.background = 'pink'
+        $imgS1.setAttribute('src','images/PROMOCIONALES BLANCO.svg')
+    }
+    if (event.type == 'mouseout') {
+        // event.target.style.background = ''
+        $imgS1.setAttribute('src','images/PROMOCIONALES MORADO.svg')
+    }
+  }
+  
+  const $card2 = d.querySelector('#service2'),
+  $imgS2 = d.querySelector('#imgS2');
+  $card2.onmouseover = $card2.onmouseout = $card2.onmousemove = handler2;
+
+
+  function handler2(event) {
+    if (event.type == 'mouseover') {
+        // event.target.style.background = 'pink'
+        $imgS2.setAttribute('src','images/PUBLICIDAD DIGITAL BLANCO.svg')
+    }
+    if (event.type == 'mouseout') {
+        // event.target.style.background = ''
+        $imgS2.setAttribute('src','images/PUBLICIDAD DIGITAL MORADO.svg')
+    }
+  }
+
+  const $card3 = d.querySelector('#service3'),
+  $imgS3 = d.querySelector('#imgS3');
+  $card3.onmouseover = $card3.onmouseout = $card3.onmousemove = handler3;
+
+
+  function handler3(event) {
+    if (event.type == 'mouseover') {
+        // event.target.style.background = 'pink'
+        $imgS3.setAttribute('src','images/OFFSET BLANCO.svg')
+    }
+    if (event.type == 'mouseout') {
+        // event.target.style.background = ''
+        $imgS3.setAttribute('src','images/OFFSET MORADO.svg')
+    }
+  }
+
+  const $card4 = d.querySelector('#service4'),
+  $imgS4 = d.querySelector('#imgS4');
+  $card4.onmouseover = $card4.onmouseout = $card4.onmousemove = handler4;
+
+
+  function handler4(event) {
+    if (event.type == 'mouseover') {
+        // event.target.style.background = 'pink'
+        $imgS4.setAttribute('src','images/SELLOS BLANCO.svg')
+    }
+    if (event.type == 'mouseout') {
+        // event.target.style.background = ''
+        $imgS4.setAttribute('src','images/SELLOS MORADO.svg')
+    }
+  }
+
+  const $card5 = d.querySelector('#service5'),
+  $imgS5 = d.querySelector('#imgS5');
+  $card5.onmouseover = $card5.onmouseout = $card5.onmousemove = handler5;
+
+
+  function handler5(event) {
+    if (event.type == 'mouseover') {
+        // event.target.style.background = 'pink'
+        $imgS5.setAttribute('src','images/UNIFORMES BLANCO.svg')
+    }
+    if (event.type == 'mouseout') {
+        // event.target.style.background = ''
+        $imgS5.setAttribute('src','images/UNIFORMES MORADO.svg')
+    }
+  }
+
+  const $card6 = d.querySelector('#service6'),
+  $imgS6 = d.querySelector('#imgS6');
+  $card6.onmouseover = $card6.onmouseout = $card6.onmousemove = handler6;
+
+
+  function handler6(event) {
+    if (event.type == 'mouseover') {
+        // event.target.style.background = 'pink'
+        $imgS6.setAttribute('src','images/INVITACIONES BLANCO.svg')
+    }
+    if (event.type == 'mouseout') {
+        // event.target.style.background = ''
+        $imgS6.setAttribute('src','images/INVITACIONES MORADO.svg')
+    }
+  }
+
+
+</script>
 </html>
