@@ -67,6 +67,14 @@
 .section-height{
   height: 100vh;
 }
+
+.title_service{
+  color:hsl(198 100% 45%);
+}
+
+.title-service-white{
+  color: #ffffff;
+}
 /*ESTILOS PARA CARDS FLOTANTES*/
 /* #section-nosotros{
   position: relative;
@@ -160,7 +168,10 @@
 
 .card-service:hover{
   background: linear-gradient(286deg, rgba(124,91,166,1) 27%, rgba(208,43,119,1) 100%, rgba(206,255,14,0.816198456153441) 100%);
+}
 
+.height-box-img{
+  height: 4rem;
 }
 
 @media (max-width: 600px) {
