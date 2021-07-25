@@ -2,6 +2,9 @@
   background: linear-gradient(286deg, rgba(124,91,166,1) 27%, rgba(208,43,119,1) 100%, rgba(206,255,14,0.816198456153441) 100%);
 }
 
+/* .navbar-expand-lg{
+  justify-content: flex-start;
+} */
 .option-menu{
   color: #fff !important;
   font-family: 'PT Sans', sans-serif !important;
@@ -172,6 +175,11 @@
 
 .height-box-img{
   height: 4rem;
+}
+
+/* ESTILOS PARA LA SECCION CLIENTES */
+.img-client{
+  cursor: pointer;
 }
 
 @media (max-width: 600px) {

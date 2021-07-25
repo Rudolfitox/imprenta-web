@@ -15,40 +15,60 @@
     <title>GAB Impresión</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-body shadow-sm py-0 menu" >
-        <div class="container-fluid"> <!--110,60 -->
-          <div>
-            <img src="images/LOGO-CON-BLANCO.png" alt="" width="130" height="90" style="object-fit: cover;">
+    <!-- <div class="menu d-flex justify-content-end sticky-top" style="height: 1.7rem;">
+      <div class="me-2">
+     
+      </div>
+      <div class="me-2">
+        <a href="">
+         
+        </a>
+      </div>
+    </div> -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-body shadow-sm py-0 menu" style="display: flex;justify-content:flex-start; flex-wrap: wrap;">
+        <div class="d-flex justify-content-end" style="height: 10px; width: 100%;">
+          <p class="option-menu me-2 mt-1" style="display: inline-block;">whatsapp</p>
+          <a href="#">
+            <img class="me-2 mt-1" src="images/whatsapp-logo-11.png" alt="" width="25" height="25">
+          </a>
+        </div>
+        <div class="container-fluid"> 
+          <div class="p-1">
+            <img src="images/LOGO-CON-BLANCO.png" alt="" width="130" height="68" style="object-fit: cover;">
           </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
+           
             <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-4">
                 <a class="nav-link active option-menu" aria-current="page" href="#section-inicio">Inicio</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-4">
                 <a class="nav-link active option-menu" aria-current="page" href="#section-nosotros">Nosotros</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-4">
                 <a class="nav-link active option-menu" aria-current="page" href="#section-servicios">Servicios</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-4">
+                <a class="nav-link active option-menu" aria-current="page" href="#section-clientes">Clientes</a>
+              </li>
+              <li class="nav-item mx-4">
                 <a class="nav-link active option-menu" aria-current="page" href="#section-galeria">Galería</a>
               </li>
-              <li class="nav-item mx-5">
+              <li class="nav-item mx-4">
                 <a class="nav-link active option-menu animate__backInDown" aria-current="page" href="#section-contacto">Contacto</a>
               </li>
             </ul>
           </div>
         </div>
     </nav>
-    <section id="section-inicio" class="container-fluid section-home mb-5" style="height: 100vh;">
+    <section id="section-inicio" class="container-fluid section-home" style="height: 100vh;">
       <div class="box-image">
           <div class="inner-image">
-              <div >
-                  <img src="images/LOGO-CON-NEGRO-.png" class="size-image animate__animated animate__backInDown">
+              <div class="boom">
+                  <img src="images/LOGO-CON-NEGRO-.png" class="size-image animate_animated animate_backInDown">
               </div>
               <!-- <div class="form-check form-check-inline">
                 <input id="check1" class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
@@ -61,8 +81,56 @@
           </div>
       </div>
   </section>
-  <section id="section-nosotros" class="container-fluid section-about" style="height: 100vh;">
-    <h3 class="text-center">Nosotros</h3>
+  <section id="" class="container-fluid section-about mb-5" >
+    <h3 class="text-center animate_animated animate_backInDown">Nosotros</h3>
+    <div class="row mt-5">
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="card text-center boom" style="width: 14rem;background-color: #00a1e6;">
+          <div class="card-body">
+            <h5 class="card-title text-light">Quiénes somos</h5>
+            <p class="card-text text-light" style="text-align: justify;">
+              Somos una empresa dedicada a la impresión y los servicios de comunicación gráfica en general.
+              Iniciamos operaciones en el año 2012 y nos ocupamos sencillamente de serles útil a nuestros aliados y clientes
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-sm-3 d-flex justify-content-center">
+        <div class="card text-center" style="width: 14rem; box-shadow: 0px 5px 15px #FFFF00">
+          <div class="card-body">
+            <h5 class="card-title">Filosofia</h5>
+            <p class="card-text text-justify" style="text-align: justify;">
+              La parte medular de nuestro negocio son los clientes por lo que ponemos especial atención en sus necesidades para que de manera funcional y creativa les propongamos las soluciones que está esperando.
+              Consideramos a la empatía una de nuestras mejores herramientas ya que a través de ella podemos entender las peticiones que nuestros clientes nos hacen tomando siempre en cuenta que debemos
+              servir como nos gustaría ser servidos.
+            </p>
+            
+          </div>
+        </div>
+      </div> -->
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="card text-center boom" style="width: 14rem; background-color: #00a1e6;">
+          <div class="card-body">
+            <h5 class="card-title text-light">Misión</h5>
+            <p class="card-text text-light" style="text-align: justify;">
+              Contar con un alto sentido de empatía hacía nuestros clientes, cumpliendo con los acuerdos hechos entre ambas partes. Persiguiendo la retribución continúa de nuestros clientes.
+            </p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="card text-center boom" style="width: 14rem;  background-color: #00a1e6;">
+          <div class="card-body">
+            <h5 class="card-title text-light">Visión</h5>
+            <p class="card-text text-light" style="text-align: justify;">
+              Ser una empresa integrada por especialistas enfocados en buenos resultados trabajando con EMPATÍA, CALIDAD, CREATIVIDAD, RESPONSABILIDAD Y HONESTIDAD
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- <div class="wrapper">
       <div class="container1" id="c3">
         <div class="" id="s3">
@@ -119,8 +187,9 @@
               <img id="imgS1" src="images/PROMOCIONALES MORADO.svg" alt="" width="100" height="100">
             </div>
             <h5 class="card-title text-center title_service" id="title_s1">Promocionales</h5>
-            <p class="card-text title_service text-center">
-              Tarjetas de Presentación, Volantes, Volantes de 1 Tinta, Revistas, Tripticos, Menús
+            <p id="descrip1" class="card-text title_service text-center">
+                Tazas, Playeras, Sudaderas, Termos,
+                Cilindros, Agendas, Tarros y más
             </p>
             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
@@ -133,7 +202,10 @@
               <img id="imgS2" src="images/PUBLICIDAD DIGITAL MORADO.svg" alt="" width="50" height="100">
             </div>
             <h5 class="card-title text-center title_service" id="title_s2">Publicidad Digital</h5>
-            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <p id="descrip2" class="card-text title_service text-center">
+              Fyer, Fotrografía Publcitaria, Infografías, Banner Animado,
+              Gif, Menú Digital Con Código QR, Catalógo Virtual, Video, Desarrollo Web    
+            </p>
             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
         </div>
@@ -145,7 +217,9 @@
               <img id="imgS3" src="images/OFFSET MORADO.svg" alt="" width="50" height="100">
             </div>
             <h5 class="card-title text-center title_service" id="title_s3">Offset</h5>
-            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <p id="descrip3" class="card-text title_service text-center">
+              Notas, Recibos, Formatos
+            </p>
             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
         </div>
@@ -161,7 +235,9 @@
               <img id="imgS4" src="images/SELLOS MORADO.svg" alt="" width="50" height="100">
             </div>
             <h5 class="card-title text-center title_service" id="title_s4">Sellos</h5>
-            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <p id="descrip4" class="card-text title_service text-center">
+              Autoentintable, De madera, Fechador, De Bolsillo
+            </p>
             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
         </div>
@@ -173,7 +249,9 @@
               <img id="imgS5" src="images/UNIFORMES MORADO.svg" alt="" width="100" height="100">
             </div>
             <h5 class="card-title text-center title_service" id="title_s5">Uniformes</h5>
-            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <p id="descrip5" class="card-text title_service text-center">
+              Bordado, Vinil Textil, Sublimación
+            </p>
             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
         </div>
@@ -185,7 +263,9 @@
               <img id="imgS6" src="images/INVITACIONES MORADO.svg" alt="" width="50" height="100">
             </div>
             <h5 class="card-title text-center title_service" id="title_s6">Inivitaciones</h5>
-            <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+            <p id="descrip6" class="card-text title_service text-center">
+              Impresas, Digitales  
+            </p>
             <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
           </div>
         </div>
@@ -201,7 +281,9 @@
                 <img id="imgS7" src="images/GRAN FORMATO MORADO.svg" alt="" width="50" height="50">
               </div>
               <h5 class="card-title text-center title_service" id="title_s7">Gran Formato</h5>
-              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+              <p id="descrip7" class="card-text title_service text-center">
+                Vinil, Carteles  
+              </p>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -213,7 +295,10 @@
                 <img id="imgS8" src="images/IMPRESORA MORADA.svg" alt="" width="50" height="50">
               </div>
               <h5 class="card-title text-center title_service" id="title_s8">Publicidad Impresa</h5>
-              <!-- <p class="card-text">With supporting text below as a natural lead-in to additional content.</p> -->
+              <p id="descrip8" class="card-text title_service text-center">
+                Tarjetas de Presentación, Volantes, Volantes de 1 Tinta, Revistas, Tripticos, Menús
+                Pendón tipo araña, Banderola           
+              </p>
               <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
             </div>
           </div>
@@ -224,8 +309,54 @@
   <section id="section-servicios" class="container-fluid section-about" style="height: 100vh; background-color: greenyellow;">
     <h3 class="text-center">Galería</h3>
   </section>
-  <section id="section-servicios" class="container-fluid section-about" style="height: 100vh; background-color: greenyellow;">
+  <section id="section-servicios" class="container-fluid section-about" style="height:100vh;">
     <h3 class="text-center">Clientes</h3>
+    <div class="row mb-5 d-flex justify-content-center" style="height:8rem;">
+      <div class="col-sm-3 text-center" style="width: 15rem;">
+          <img class="animate__animated img-client" id="img_client1" src="images/RICOLINO gris.svg" data-src-img="images/RICOLINO gris.svg" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="" width="200" height="200">
+      </div>
+      <div class="col-sm-3 text-center" style="width: 15rem;">
+        <img class="animate__animated img-client" id="img_client2" src="images/grupo bimbo gris.svg" data-src-img="images/grupo bimbo gris.svg" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="" width="200" height="200">
+      </div>
+      <div class="col-sm-3 text-center" style="width: 15rem;">
+        <img class="animate__animated img-client" id="img_client3" src="images/cinepolis gris.svg" data-src-img="images/cinepolis gris.svg" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="" width="200" height="200">
+      </div>
+      <div class="col-sm-3 text-center" style="width: 15rem;">
+        <img class="animate__animated img-client" id="img_client4" src="images/Coca-Cola gris.svg" data-src-img="images/Coca-Cola gris.svg" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="" width="200" height="200">
+      </div>
+     
+    </div>
+    <div class="row d-flex justify-content-center" style="height:8rem;">
+      <div class="col-sm-3 text-center" style="width: 15rem;">
+        <img class="animate__animated img-client" id="img_client5" src="images/Banner Gris.svg" data-src-img="images/Banner Gris.svg" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="" width="200" height="200">
+      </div>
+      <div class="col-sm-3 text-center" style="width: 15rem;">
+        <img class="animate__animated img-client" id="img_client6" src="images/NItram gris.svg" data-src-img="images/NItram gris.svg" data-bs-toggle="modal" data-bs-target="#exampleModal" alt="" width="200" height="200">
+      </div>
+      <div class="col-sm-3 text-center" style="width: 15rem;">
+        <img class="animate__animated img-client" id="img_client7" src="images/perennails gris.svg" data-src-img="images/perennails gris.svg"  data-bs-toggle="modal" data-bs-target="#exampleModal" alt="" width="200" height="200">
+      </div>
+    </div>
+    
+    <!-- INICIO MODAL IMAGEN TRABAJO CLIENTE -->
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title text-center" id="exampleModalLabel">Trabajo realizado</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex justify-content-center">
+            <img id="work_client" src="" alt="" width="200" height="200">
+          </div>
+          <div class="modal-footer">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN MODAL IMAGEN TRABAJO CLIENTE -->
+    
   </section>
   <section id="section-servicios" class="container-fluid section-about" style="height: 100vh;">
     <h3 class="text-center">Contacto</h3>
@@ -298,7 +429,8 @@
   const d = document,
   $card1 = d.querySelector('#service1'),
   $imgS1 = d.querySelector('#imgS1'),
-  $title_s1 = d.querySelector('#title_s1');
+  $title_s1 = d.querySelector('#title_s1'),
+  $descrip1 =d.querySelector('#descrip1');
   $card1.onmouseover = $card1.onmouseout = $card1.onmousemove = handler;
   
 
@@ -309,6 +441,8 @@
         $imgS1.setAttribute('src','images/PROMOCIONALES BLANCO.svg');
         $title_s1.classList.remove('title_service');
         $title_s1.classList.add('title-service-white');
+        $descrip1.classList.remove('title_service')
+        $descrip1.classList.add('title-service-white');
     }
     if (event.type == 'mouseout') {
         // event.target.style.background = ''
@@ -316,12 +450,16 @@
         $title_s1.classList.add('title_service');
         $title_s1.classList.remove('title-service-white');
         $card1.classList.remove('animate__swing');
+        $descrip1.classList.add('title_service')
+        $descrip1.classList.remove('title-service-white');
+ 
     }
   }
   
   const $card2 = d.querySelector('#service2'),
   $imgS2 = d.querySelector('#imgS2'),
-  $title_s2 = d.querySelector('#title_s2');
+  $title_s2 = d.querySelector('#title_s2'),
+  $descrip2 =d.querySelector('#descrip2');
   $card2.onmouseover = $card2.onmouseout = $card2.onmousemove = handler2;
 
 
@@ -332,6 +470,8 @@
         $imgS2.setAttribute('src','images/PUBLICIDAD DIGITAL BLANCO.svg');
         $title_s2.classList.remove('title_service');
         $title_s2.classList.add('title-service-white');
+        $descrip2.classList.remove('title_service')
+        $descrip2.classList.add('title-service-white');
     }
     if (event.type == 'mouseout') {
         // event.target.style.background = ''
@@ -339,12 +479,15 @@
         $title_s2.classList.add('title_service');
         $title_s2.classList.remove('title-service-white');
         $card2.classList.remove('animate__swing');
+        $descrip2.classList.add('title_service')
+        $descrip2.classList.remove('title-service-white');
     }
   }
 
   const $card3 = d.querySelector('#service3'),
   $imgS3 = d.querySelector('#imgS3'),
-  $title_s3 = d.querySelector('#title_s3');
+  $title_s3 = d.querySelector('#title_s3'),
+  $descrip3 =d.querySelector('#descrip3');
   $card3.onmouseover = $card3.onmouseout = $card3.onmousemove = handler3;
 
 
@@ -355,6 +498,8 @@
         $imgS3.setAttribute('src','images/OFFSET BLANCO.svg');
         $title_s3.classList.remove('title_service');
         $title_s3.classList.add('title-service-white');
+        $descrip3.classList.remove('title_service')
+        $descrip3.classList.add('title-service-white');
 
     }
     if (event.type == 'mouseout') {
@@ -363,12 +508,15 @@
         $title_s3.classList.add('title_service');
         $title_s3.classList.remove('title-service-white');
         $card3.classList.remove('animate__swing');
+        $descrip3.classList.add('title_service')
+        $descrip3.classList.remove('title-service-white');
     }
   }
 
   const $card4 = d.querySelector('#service4'),
   $imgS4 = d.querySelector('#imgS4'),
-  $title_s4 = d.querySelector('#title_s4');;
+  $title_s4 = d.querySelector('#title_s4'),
+  $descrip4 =d.querySelector('#descrip4');
   $card4.onmouseover = $card4.onmouseout = $card4.onmousemove = handler4;
 
 
@@ -379,6 +527,8 @@
         $imgS4.setAttribute('src','images/SELLOS BLANCO.svg');
         $title_s4.classList.remove('title_service');
         $title_s4.classList.add('title-service-white');
+        $descrip4.classList.remove('title_service')
+        $descrip4.classList.add('title-service-white');
     }
     if (event.type == 'mouseout') {
         // event.target.style.background = ''
@@ -386,12 +536,15 @@
         $title_s4.classList.add('title_service');
         $title_s4.classList.remove('title-service-white');
         $card4.classList.remove('animate__swing');
+        $descrip4.classList.add('title_service')
+        $descrip4.classList.remove('title-service-white');
     }
   }
 
   const $card5 = d.querySelector('#service5'),
   $imgS5 = d.querySelector('#imgS5'),
-  $title_s5 = d.querySelector('#title_s5');
+  $title_s5 = d.querySelector('#title_s5'),
+  $descrip5 =d.querySelector('#descrip5');
   $card5.onmouseover = $card5.onmouseout = $card5.onmousemove = handler5;
 
 
@@ -402,6 +555,8 @@
         $imgS5.setAttribute('src','images/UNIFORMES BLANCO.svg');
         $title_s5.classList.remove('title_service');
         $title_s5.classList.add('title-service-white');
+        $descrip5.classList.remove('title_service')
+        $descrip5.classList.add('title-service-white');
         
     }
     if (event.type == 'mouseout') {
@@ -410,12 +565,15 @@
         $title_s5.classList.add('title_service');
         $title_s5.classList.remove('title-service-white');
         $card5.classList.remove('animate__swing');
+        $descrip5.classList.add('title_service')
+        $descrip5.classList.remove('title-service-white');
     }
   }
 
   const $card6 = d.querySelector('#service6'),
   $imgS6 = d.querySelector('#imgS6'),
-  $title_s6 = d.querySelector('#title_s6');
+  $title_s6 = d.querySelector('#title_s6'),
+  $descrip6 =d.querySelector('#descrip6');
   $card6.onmouseover = $card6.onmouseout = $card6.onmousemove = handler6;
 
 
@@ -426,6 +584,8 @@
         $imgS6.setAttribute('src','images/INVITACIONES BLANCO.svg');
         $title_s6.classList.remove('title_service');
         $title_s6.classList.add('title-service-white');
+        $descrip6.classList.remove('title_service')
+        $descrip6.classList.add('title-service-white');
     }
     if (event.type == 'mouseout') {
         // event.target.style.background = ''
@@ -433,12 +593,15 @@
         $title_s6.classList.add('title_service');
         $title_s6.classList.remove('title-service-white');
         $card6.classList.remove('animate__swing');
+        $descrip6.classList.add('title_service')
+        $descrip6.classList.remove('title-service-white');
     }
   }
 
   const $card7 = d.querySelector('#service7'),
   $imgS7 = d.querySelector('#imgS7'),
-  $title_s7 = d.querySelector('#title_s7');
+  $title_s7 = d.querySelector('#title_s7'),
+  $descrip7 =d.querySelector('#descrip7');;
   $card7.onmouseover = $card7.onmouseout = $card7.onmousemove = handler7;
 
 
@@ -449,6 +612,8 @@
         $imgS7.setAttribute('src','images/GRAN FORMATO BLANCO.svg');
         $title_s7.classList.remove('title_service');
         $title_s7.classList.add('title-service-white');
+        $descrip7.classList.remove('title_service')
+        $descrip7.classList.add('title-service-white');
     }
     if (event.type == 'mouseout') {
         // event.target.style.background = ''
@@ -456,12 +621,15 @@
         $title_s7.classList.add('title_service');
         $title_s7.classList.remove('title-service-white');
         $card7.classList.remove('animate__swing');
+        $descrip7.classList.add('title_service')
+        $descrip7.classList.remove('title-service-white');
     }
   }
 
   const $card8 = d.querySelector('#service8'),
   $imgS8 = d.querySelector('#imgS8'),
-  $title_s8 = d.querySelector('#title_s8');
+  $title_s8 = d.querySelector('#title_s8'),
+  $descrip8 =d.querySelector('#descrip8');
   $card8.onmouseover = $card8.onmouseout = $card8.onmousemove = handler8;
 
 
@@ -472,6 +640,8 @@
         $imgS8.setAttribute('src','images/IMPRESORA BLANCA.svg');
         $title_s8.classList.remove('title_service');
         $title_s8.classList.add('title-service-white');
+        $descrip8.classList.remove('title_service')
+        $descrip8.classList.add('title-service-white');
     }
     if (event.type == 'mouseout') {
         // event.target.style.background = ''
@@ -479,9 +649,10 @@
         $title_s8.classList.add('title_service');
         $title_s8.classList.remove('title-service-white');
         $card8.classList.remove('animate__swing');
+        $descrip8.classList.add('title_service')
+        $descrip8.classList.remove('title-service-white');
     }
   }
-
-
 </script>
+<script src="js/overClients.js"></script>
 </html>
