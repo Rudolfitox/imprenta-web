@@ -89,7 +89,6 @@ function handler6(event) {
 }
 
 const $img_client7 = document.querySelector('#img_client7');
-
 $img_client7.onmouseover = $img_client7.onmouseout = $img_client7.onmousemove = handler7;
 
 function handler7(event) {
@@ -103,6 +102,66 @@ function handler7(event) {
     }
 }
 
+const $img_client8 = document.querySelector('#img_client8');
+$img_client8.onmouseover = $img_client8.onmouseout = $img_client8.onmousemove = handler9;
+
+function handler9(event) {
+    if (event.type == 'mouseover') {
+        $img_client8.setAttribute('src','images/Propecsa RGB.svg');
+        // $img_client7.classList.add('animate__heartBeat');
+    }
+    if (event.type == 'mouseout') {
+        $img_client8.setAttribute('src','images/Propecsa Gris.svg');
+        // $img_client7.classList.remove('animate__heartBeat');
+    }
+}
+
+const $img_client9 = document.querySelector('#img_client9');
+$img_client9.onmouseover = $img_client9.onmouseout = $img_client9.onmousemove = handler10;
+
+function handler10(event) {
+    if (event.type == 'mouseover') {
+        $img_client9.setAttribute('src','images/Prominox RGB.svg');
+        // $img_client7.classList.add('animate__heartBeat');
+    }
+    if (event.type == 'mouseout') {
+        $img_client9.setAttribute('src','images/Prominox Gris.svg');
+        // $img_client7.classList.remove('animate__heartBeat');
+    }
+}
+
+const $img_client10 = document.querySelector('#img_client10');
+$img_client10.onmouseover = $img_client10.onmouseout = $img_client10.onmousemove = handler11;
+
+function handler11(event) {
+    if (event.type == 'mouseover') {
+        $img_client10.setAttribute('src','images/HFI RGB.svg');
+        // $img_client7.classList.add('animate__heartBeat');
+    }
+    if (event.type == 'mouseout') {
+        $img_client10.setAttribute('src','images/HFI Gris.svg');
+        // $img_client7.classList.remove('animate__heartBeat');
+    }
+}
+
+const $img_client11 = document.querySelector('#img_client11');
+$img_client11.onmouseover = $img_client11.onmouseout = $img_client11.onmousemove = handler12;
+
+function handler12(event) {
+    if (event.type == 'mouseover') {
+        $img_client11.setAttribute('src','images/Gateaway RGB.svg');
+        // $img_client7.classList.add('animate__heartBeat');
+    }
+    if (event.type == 'mouseout') {
+        $img_client11.setAttribute('src','images/Gateaway Gris.svg');
+        // $img_client7.classList.remove('animate__heartBeat');
+    }
+}
+
+
+const $logo_company = document.querySelector('#logo-company');
+$logo_company.onmouseover = $logo_company.onmouseout = $logo_company.onmousemove = handler8;
+
 document.addEventListener('click',e => {
     const $work_client_image = document.querySelector('#work_client');
     
@@ -111,9 +170,6 @@ document.addEventListener('click',e => {
         $work_client_image.src = src;
     }     
 });
-
-const $logo_company = document.querySelector('#logo-company');
-$logo_company.onmouseover = $logo_company.onmouseout = $logo_company.onmousemove = handler8;
 
 function handler8(event) {
     if (event.type == 'mouseover') {

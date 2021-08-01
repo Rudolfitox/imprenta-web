@@ -5,26 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- Bootstrap CSS -->
-     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/css/lightslider.css" />   
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link
         rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-     <link href="css/bootstrap.min.css" rel="stylesheet">
-     <link href="css/styles.css" rel="stylesheet">
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    
+    <script src="/js/lightslider.js"></script>
     <title>GAB Impresión</title>
 </head>
 <body>
-    <!-- <div class="menu d-flex justify-content-end sticky-top" style="height: 1.7rem;">
-      <div class="me-2">
-     
-      </div>
-      <div class="me-2">
-        <a href="">
-         
-        </a>
-      </div>
-    </div> -->
+
     <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-body shadow-sm py-0 menu" style="display: flex;justify-content:flex-start; flex-wrap: wrap;">
         <div class="d-flex justify-content-end" style="height: 10px; width: 100%;">
           <p class="option-menu me-2 mt-1" style="display: inline-block;">whatsapp</p>
@@ -70,112 +68,38 @@
               <div class="boom">
                   <img id="logo-company" src="images/LOGO-CON-NEGRO-.png" class="size-image animate_animated animate_backInDown">
               </div>
-              <!-- <div class="form-check form-check-inline">
-                <input id="check1" class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">blah blah</label>
-              </div>
-              <div class="form-check form-check-inline">
-                <input id="check2" class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                <label class="form-check-label" for="inlineCheckbox1">blah blah2</label>
-              </div> -->
           </div>
       </div>
   </section>
-  <section id="section-nosotros" class="container-fluid section-about mb-5" >
-    <h3 class="text-center animate_animated animate_backInDown">Nosotros</h3>
-    <div class="row mt-5">
-      <div class="col-sm-4 d-flex justify-content-center">
-        <div class="card text-center boom" style="width: 14rem;background-color: #00a1e6;">
-          <div class="card-body">
-            <h5 class="card-title text-light">Quiénes somos</h5>
-            <p class="card-text text-light" style="text-align: justify;">
-              Somos una empresa dedicada a la impresión y los servicios de comunicación gráfica en general.
-              Iniciamos operaciones en el año 2012 y nos ocupamos sencillamente de serles útil a nuestros aliados y clientes
-            </p>
-            
-          </div>
+  <section id="section-nosotros" class="container-fluid section-about mb-5"  style="height: 100vh;">
+    <h3 class="text-center">Nosotros</h3>
+    <div class="row" style="height: 75%; width: 93%; margin: 0 auto; background-image: url('images/Luis.jpg'); background-repeat: no-repeat; background-size: 100% 90%; margin: 0 auto;">
+      <div class="col-sm-4  d-flex justify-content-center align-items-center">
+        <div>
+          <h5 class="text-light text-center" style="font-size: 40px; font-weight: bold;">¿Quiénes somos?</h5>
+          <p class="text-light text-center" style="font-size: 20px;">
+          Somos una empresa dedicada a la impresión y los servicios de comunicación gráfica en general.
+          Contamos con mas de 10 años de experiencia y nos ocupamos sencillamente de serles útil a nuestros aliados y clientes
+          </p> 
         </div>
       </div>
-      <!-- <div class="col-sm-3 d-flex justify-content-center">
-        <div class="card text-center" style="width: 14rem; box-shadow: 0px 5px 15px #FFFF00">
-          <div class="card-body">
-            <h5 class="card-title">Filosofia</h5>
-            <p class="card-text text-justify" style="text-align: justify;">
-              La parte medular de nuestro negocio son los clientes por lo que ponemos especial atención en sus necesidades para que de manera funcional y creativa les propongamos las soluciones que está esperando.
-              Consideramos a la empatía una de nuestras mejores herramientas ya que a través de ella podemos entender las peticiones que nuestros clientes nos hacen tomando siempre en cuenta que debemos
-              servir como nos gustaría ser servidos.
-            </p>
-            
-          </div>
-        </div>
-      </div> -->
-      <div class="col-sm-4 d-flex justify-content-center">
-        <div class="card text-center boom" style="width: 14rem; background-color: #00a1e6;">
-          <div class="card-body">
-            <h5 class="card-title text-light">Misión</h5>
-            <p class="card-text text-light" style="text-align: justify;">
-              Contar con un alto sentido de empatía hacía nuestros clientes, cumpliendo con los acuerdos hechos entre ambas partes. Persiguiendo la retribución continúa de nuestros clientes.
-            </p>
-            
-          </div>
+      <div class="col-sm-4  d-flex justify-content-center align-items-center">
+        <div class="mb-3">
+          <h5 class="text-light text-center" style="font-size: 40px; font-weight: bold;">Misión</h5>
+          <p class="text-light text-center" style="font-size: 20px;">
+            Contar con un alto sentido de empatía hacía nuestros clientes, cumpliendo con los acuerdos hechos entre ambas partes. Persiguiendo la retribución continúa de nuestros clientes.
+          </p>
         </div>
       </div>
-      <div class="col-sm-4 d-flex justify-content-center">
-        <div class="card text-center boom" style="width: 14rem;  background-color: #00a1e6;">
-          <div class="card-body">
-            <h5 class="card-title text-light">Visión</h5>
-            <p class="card-text text-light" style="text-align: justify;">
-              Ser una empresa integrada por especialistas enfocados en buenos resultados trabajando con EMPATÍA, CALIDAD, CREATIVIDAD, RESPONSABILIDAD Y HONESTIDAD
-            </p>
-          </div>
-        </div>
+      <div class="col-sm-4  d-flex justify-content-center align-items-center">
+        <div>
+          <h5 class="text-light text-center" style="font-size: 40px; font-weight: bold;">Visión</h5>
+          <p class="text-light text-center" style="font-size: 20px;">
+            Ser una empresa integrada por especialistas enfocados en buenos resultados trabajando con EMPATÍA, CALIDAD, CREATIVIDAD, RESPONSABILIDAD Y HONESTIDAD
+          </p>
+        </div>  
       </div>
     </div>
-    <!-- <div class="wrapper">
-      <div class="container1" id="c3">
-        <div class="" id="s3">
-          <div class="info">
-            <h3 class="title-card">Visión</h3>
-            <p class="text-card">
-              Ser una empresa integrada por especialistas enfocados en buenos resultados trabajando con EMPATÍA, CALIDAD, CREATIVIDAD, RESPONSABILIDAD Y HONESTIDAD
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container1" id="c0">
-        <div class="story" id="s0">
-          <div class="info">
-            <h3 class="title-card">Filosofia</h3>
-            <p class="text-card"> 
-              La parte medular de nuestro negocio son los clientes por lo que ponemos especial atención en sus necesidades para que de manera funcional y creativa les propongamos las soluciones que está esperando.
-              Consideramos a la empatía una de nuestras mejores herramientas ya que a través de ella podemos entender las peticiones que nuestros clientes nos hacen tomando siempre en cuenta que debemos
-              servir como nos gustaría ser servidos.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container1" id="c1">
-        <div class="story" id="s1">
-          <div class="info">
-            <h3 class="title-card">Misión</h3>
-            <p class="text-card">
-              Contar con un alto sentido de empatía hacía nuestros clientes, cumpliendo con los acuerdos hechos entre ambas partes. Persiguiendo la retribución continúa de nuestros clientes.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container1" id="c2">
-        <div class="story" id="s2">
-          <div class="info">
-            <h3 class="title-card">Nosotros</h3>
-            <p class="text-card">
-              Somos una empresa dedicada a la impresión y los servicios de comunicación gráfica en general.
-              Iniciamos operaciones en el año 2012 y nos ocupamos sencillamente de serles útil a nuestros aliados y clientes
-            </p>
-          </div>
-        </div>
-      </div>
-    </div> -->
   </section>
   <section id="section-servicios" class="container-fluid section-about ">
     <h3 class="text-center">Servicios</h3>
@@ -308,10 +232,127 @@
   </section>
   <section id="section-galeria" class="container-fluid section-about" style="height: 100vh;">
     <h3 class="text-center">Galería</h3>
+    
   </section>
   <section id="section-clientes" class="container-fluid section-about" style="height:100vh;">
     <h3 class="text-center">Clientes</h3>
-    <div class="row mb-5 d-flex justify-content-center" style="height:8rem;">
+    <div class="container-carousel">
+      <!--slider------------------->
+      <ul id="autoWidth" style="">
+      <!--1------------------------------>
+              <li class="item-a">
+                  <!--slider-box-->
+                  <div class="box">
+                      <!--model-->
+                      <img id="img_client1" class="model" src="images/RICOLINO gris.svg">
+                  </div>
+              </li>
+      <!--2------------------------------>
+              <li class="item-a">
+                  <!--slider-box-->
+                      <div class="box">
+                          <!--model-->
+                          <img id="img_client2" class="model" src="images/grupo bimbo gris.svg">	
+                      </div>
+              </li>
+      <!--3------------------------------>
+              <li class="item-a">
+              <!--slider-box-->
+                  <div class="box">
+                      <!--model-->
+                      <img id="img_client3" class="model" src="images/cinepolis gris.svg">
+                  </div>
+              </li>
+      <!--4------------------------------>
+              <li class="item-a">
+              <!--slider-box-->
+                  <div class="box">
+                      <!--model-->
+                      <img id="img_client4" class="model" src="images/Coca-Cola gris.svg">	
+                  </div>
+              </li>
+      <!--5------------------------------>
+              <li class="item-a">
+              <!--slider-box-->
+                  <div class="box">
+                      <!--model-->
+                      <img id="img_client5" class="model" src="images/Banner Gris.svg">	
+                  </div>
+              </li>
+      <!--6------------------------------>
+              <li class="item-a">
+              <!--slider-box-->
+                  <div class="box">
+                      <!--model-->
+                      <img id="img_client6" class="model" src="images/NItram gris.svg">	
+                  </div>
+              </li>
+          <!--7------------------------------>
+          <li class="item-a">
+            <!--slider-box-->
+                <div class="box">
+                    <!--model-->
+                    <img id="img_client7" class="model" src="images/perennails gris.svg">	
+                </div>
+          </li>
+          <!--8------------------------------>
+          <li class="item-a">
+            <!--slider-box-->
+              <div class="box">
+                  <!--model-->
+                  <img id="img_client8" class="model" src="images/Propecsa Gris.svg">	
+              </div>
+          </li>
+          <!--9------------------------------>
+          <li class="item-a">
+          <!--slider-box-->
+            <div class="box">
+                <!--model-->
+                <img id="img_client9" class="model" src="images/Prominox Gris.svg">	
+            </div>
+          </li>
+           <!--10------------------------------>
+           <li class="item-a">
+            <!--slider-box-->
+              <div class="box">
+                  <!--model-->
+                  <img id="img_client10" class="model" src="images/HFI Gris.svg">	
+              </div>
+            </li>
+            <!--11------------------------------>
+            <li class="item-a">
+            <!--slider-box-->
+              <div class="box">
+                  <!--model-->
+                  <img id="img_client11" class="model" src="images/Gateaway Gris.svg">	
+              </div>
+            </li>  
+      </ul>
+    </div>
+    <!-- <ul class="" id="lightSlider" style="background-color: indigo;">
+      <li class="bg-primary text-center" style="">
+        <img class="animate__animated img-client" id="img_client1" src="images/RICOLINO gris.svg" data-src-img="images/RICOLINO gris.svg" alt="" width="200" height="200">
+      </li>
+      <li class="text-center">
+        <img class="animate__animated img-client" id="img_client2" src="images/grupo bimbo gris.svg" data-src-img="images/grupo bimbo gris.svg" alt="" width="200" height="200">
+      </li>
+      <li class="text-center">
+        <img class="animate__animated img-client" id="img_client3" src="images/cinepolis gris.svg" data-src-img="images/cinepolis gris.svg" alt="" width="200" height="200">
+      </li>
+      <li class="text-center">
+        <img class="animate__animated img-client" id="img_client4" src="images/Coca-Cola gris.svg" data-src-img="images/Coca-Cola gris.svg" alt="" width="200" height="200">
+      </li>
+      <li class="text-center">
+        <img class="animate__animated img-client" id="img_client5" src="images/Banner Gris.svg" data-src-img="images/Banner Gris.svg" alt="" width="200" height="200">
+      </li>
+      <li class="text-center">
+        <img class="animate__animated img-client" id="img_client6" src="images/NItram gris.svg" data-src-img="images/NItram gris.svg" alt="" width="200" height="200">
+      </li>
+      <li class="text-center">
+        <img class="animate__animated img-client" id="img_client7" src="images/perennails gris.svg" data-src-img="images/perennails gris.svg"  alt="" width="200" height="200">
+      </li>
+    </ul> -->
+    <!-- <div class="row mb-5 d-flex justify-content-center" style="height:8rem;">
       <div class="col-sm-3 text-center" style="width: 15rem;">
           <img class="animate__animated img-client" id="img_client1" src="images/RICOLINO gris.svg" data-src-img="images/RICOLINO gris.svg" alt="" width="200" height="200">
       </div>
@@ -323,10 +364,9 @@
       </div>
       <div class="col-sm-3 text-center" style="width: 15rem;">
         <img class="animate__animated img-client" id="img_client4" src="images/Coca-Cola gris.svg" data-src-img="images/Coca-Cola gris.svg" alt="" width="200" height="200">
-      </div>
-     
-    </div>
-    <div class="row d-flex justify-content-center" style="height:8rem;">
+      </div> 
+    </div> -->
+    <!-- <div class="row d-flex justify-content-center" style="height:8rem;">
       <div class="col-sm-3 text-center" style="width: 15rem;">
         <img class="animate__animated img-client" id="img_client5" src="images/Banner Gris.svg" data-src-img="images/Banner Gris.svg" alt="" width="200" height="200">
       </div>
@@ -336,7 +376,7 @@
       <div class="col-sm-3 text-center" style="width: 15rem;">
         <img class="animate__animated img-client" id="img_client7" src="images/perennails gris.svg" data-src-img="images/perennails gris.svg"  alt="" width="200" height="200">
       </div>
-    </div>
+    </div> -->
     
     <!-- INICIO MODAL IMAGEN TRABAJO CLIENTE -->
     <!-- Modal -->
@@ -655,4 +695,5 @@
   }
 </script>
 <script src="js/overClients.js"></script>
+<script src="js/script.js" type="text/javascript"></script>
 </html>
