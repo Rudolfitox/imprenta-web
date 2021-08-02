@@ -13,7 +13,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!--Jquery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -22,14 +22,35 @@
     <title>GAB Impresión</title>
 </head>
 <body>
-
+    <div class="d-flex justify-content-end" style="height: 30px; background-color: #000; width: 100%;">
+      <div class="me-2">
+        <i class="fas fa-phone-alt" style="color: #fff; font-size: 15px;"></i>
+      </div>
+      <div class="mb-1 me-3">
+        <p style="color: #fff;">44-41-00-18-64</p>
+      </div>
+      <div class="mb-1 me-2">
+        <i class="fas fa-map-marker-alt" style="color: #fff; font-size: 15px;"></i>
+      </div>
+      <div class="mb-1 me-3">
+        <p style="color: #fff;">Calle Circuito Ote 28, Ponciano Arriaga, 78437</p>
+      </div>
+      <div class="mb-1">
+        <a class="mt-1 me-2" href="">
+          <i class="fab fa-whatsapp" style="color: #fff; font-size: 25px;"></i>
+        </a>
+        <a class="mt-1 me-2" href="https://www.facebook.com/gabcentrodeimpresion/">
+          <i class="fab fa-facebook-square" style="color: #fff;font-size: 25px;"></i>
+        </a>
+      </div>
+    </div>
     <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-body shadow-sm py-0 menu" style="display: flex;justify-content:flex-start; flex-wrap: wrap;">
-        <div class="d-flex justify-content-end" style="height: 10px; width: 100%;">
+        <!-- <div class="d-flex justify-content-end" style="height: 10px; width: 100%;">
           <p class="option-menu me-2 mt-1" style="display: inline-block;">whatsapp</p>
           <a href="#">
             <img class="me-2 mt-1" src="images/whatsapp-logo-11.png" alt="" width="25" height="25">
           </a>
-        </div>
+        </div> -->
         <div class="container-fluid"> 
           <div class="mb-1">
             <img src="images/LOGO-CON-BLANCO.png" alt="" width="130" height="68" style="object-fit: cover;">
@@ -398,7 +419,7 @@
     <!-- FIN MODAL IMAGEN TRABAJO CLIENTE -->
     
   </section>
-  <section id="section-contacto" class="container-fluid section-about" style="height: 100vh;">
+  <section id="section-contacto" class="container-fluid section-about" style="">
     <h3 class="text-center">Contacto</h3>
     <div class="row mt-5">
       <div class="col-12">
@@ -435,6 +456,32 @@
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14781.53503481959!2d-100.9397709!3d22.1494596!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x580cfb93d0ed91c8!2sGab%20Centro%20de%20Impresion!5e0!3m2!1ses-419!2smx!4v1625447147581!5m2!1ses-419!2smx" width="400" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </section>
+  <footer class="container-fluid" style="height: 200px; background-color: #000; width: 100%;">
+    <div class="row d-flex align-items-center" style="height: 100%;">
+      <div class="col-sm-4" style="height: 48%;">
+        <h5 style="color:#fff;">Dirección</h5>
+        <p style="color: #fff;">
+          Calle Circuito Ote 28, Ponciano Arriaga, 78437 Soledad de Graciano Sánchez, S.L.P
+        </p>
+        <p style="color: #fff;">&copy; Copyright Gab Impresión</p>
+      </div>
+      <div class="col-sm-4" style="height: 48%;">
+        <h5 style="color:#fff;">Redes Sociales</h5>
+        <a class="mt-1 me-2" href="">
+          <i class="fab fa-whatsapp" style="color: #fff; font-size: 25px;"></i>
+        </a>
+        <a class="mt-1 me-2" href="https://www.facebook.com/gabcentrodeimpresion/">
+          <i class="fab fa-facebook-square" style="color: #fff;font-size: 25px;"></i>
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <h5 style="color:#fff;">Nosotros</h5>
+        <p style="color: #fff;">
+          Somos una empresa dedicada a la impresión y los servicios de comunicación gráfica en general.
+        </p>
+      </div>
+    </div>
+  </footer>
 </body>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
