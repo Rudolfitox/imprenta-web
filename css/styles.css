@@ -68,6 +68,10 @@ body{
   height: 100vh;
 }
 
+.section-about{
+  height: 100vh;
+}
+
 .title_service{
   color:hsl(198 100% 45%);
 }
@@ -219,6 +223,9 @@ body{
     .section-height{
       height: 100%;
     }
+    .section-about{
+      height: 100%;
+    }
 }
 
 
@@ -233,6 +240,10 @@ body{
   .details p{
       font-size: 16px;
       width: 250px;
+  }
+
+  .section-about{
+    height: 100%;
   }
   
 }
