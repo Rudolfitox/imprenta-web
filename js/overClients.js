@@ -4,11 +4,11 @@ $img_client1.onmouseover = $img_client1.onmouseout = $img_client1.onmousemove = 
 
 function handler(event) {
     if (event.type == 'mouseover') {
-        $img_client1.setAttribute('src','images/ricolino RGB.svg');
+        $img_client1.setAttribute('src','images/Ricolino RGB.svg');
         // $img_client1.classList.add('animate__heartBeat');
     }
     if (event.type == 'mouseout') {
-        $img_client1.setAttribute('src','images/ricolino gris.svg');
+        $img_client1.setAttribute('src','images/Ricolino gris.svg');
         // $img_client1.classList.remove('animate__heartBeat');
     }
 }
