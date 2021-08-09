@@ -160,7 +160,7 @@ function handler12(event) {
 
 
 const $logo_company = document.querySelector('#logo-company');
-$logo_company.onmouseover = $logo_company.onmouseout = $logo_company.onmousemove = handler8;
+// $logo_company.onmouseover = $logo_company.onmouseout = $logo_company.onmousemove = handler8;
 
 document.addEventListener('click',e => {
     const $work_client_image = document.querySelector('#work_client');
@@ -171,15 +171,15 @@ document.addEventListener('click',e => {
     }     
 });
 
-function handler8(event) {
-    if (event.type == 'mouseover') {
-        // $img_client8.setAttribute('src','images/perennails color.svg');
-        $logo_company.classList.add('animate__heartBeat');
-    }
-    if (event.type == 'mouseout') {
-        // $img_client7.setAttribute('src','images/perennails gris.svg');
-        $logo_company.classList.remove('animate__heartBeat');
-    }
-}
+// function handler8(event) {
+//     if (event.type == 'mouseover') {
+//         // $img_client8.setAttribute('src','images/perennails color.svg');
+//         $logo_company.classList.add('animate__heartBeat');
+//     }
+//     if (event.type == 'mouseout') {
+//         // $img_client7.setAttribute('src','images/perennails gris.svg');
+//         $logo_company.classList.remove('animate__heartBeat');
+//     }
+// }
 
 
