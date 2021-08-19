@@ -244,104 +244,33 @@
     </div> 
      
     <div id="portfolio" class="d-flex justify-content-around flex-wrap" style="width: 90%; height: 100%; margin: 0 auto; overflow: auto;">
-      
-      <!-- <div class="tile scale-anm borda all imagen">
-          <img src="images/bordados1.jpeg" alt=""  />
-      </div> -->
-      <div class="tile scale-anm  all imagen">
+      <div class="tile scale-anm all imagen ">
           <img src="images/all.png" alt=""/>
       </div>
-      <div class="tile scale-anm borda  imagen">
+      
+      <div class="tile scale-anm borda imagen visually-hidden-focusable">
           <img src="images/all-bordados.png" alt=""  />
       </div>
-
-      <div class="tile scale-anm deco  imagen">
+      
+      <div class="tile scale-anm deco  imagen visually-hidden-focusable">
         <img src="images/all-decoracion.png" alt="" />
       </div>
-      <div class="tile scale-anm promo  imagen">
+
+      <div class="tile scale-anm promo  imagen visually-hidden-focusable">
         <img src="images/all-promo.png" alt=""  />
       </div>
-      <div class="tile scale-anm playe  imagen">
+      
+      <div class="tile scale-anm playe  imagen visually-hidden-focusable">
         <img src="images/all-playeras.png" alt="" />
       </div>
-      <!-- <div class="tile scale-anm deco all imagen">
-        <img src="images/deco1.jpg" alt="" />
-      </div> -->
-      <!-- <div class="tile scale-anm borda all imagen">
-        <img src="images/bordados2.jpeg" alt=""  />
-      </div> -->
-      <!-- <div class="tile scale-anm promo all imagen">
-        <img src="images/promo1.jpg" alt=""  />
-      </div> -->
-      <!-- <div class="tile scale-anm borda all imagen">
-        <img src="images/bordados3.jpg" alt=""  />
-      </div> -->
-      <!-- <div class="tile scale-anm rotuve all imagen">     
-        <img src="images/rotuve4.JPG" alt="" />
-      </div> -->
-      <!-- <div class="tile scale-anm playe all imagen">
-        <img src="images/playera1.jpg" alt="" />
-      </div> -->
-      <!-- <div class="tile scale-anm deco all imagen">
-        <img src="images/deco2.jpg" alt="" />
-      </div> -->
-      <!-- <div class="tile scale-anm promo all imagen">
-        <img src="images/promo2.png" alt=""  />
-      </div> -->
-      <!-- <div class="tile scale-anm playe all imagen">
-        <img src="images/playera2.jpg" alt="" />
-      </div> -->
-      <!-- <div class="tile scale-anm rotuve all imagen">     
-        <img src="images/rotuve3.jpeg" alt="" />
-      </div> -->
-      <!-- <div class="tile scale-anm playe all imagen">
-        <img src="images/playera3.JPG" alt="" />
-      </div> -->
-      <!-- <div class="tile scale-anm promo all imagen">
-        <img src="images/promo3.JPG" alt=""  />
-      </div> -->
-      <!-- <div class="tile scale-anm borda all imagen">
-            <img src="images/bordados5.JPG" alt=""  />
-      </div> -->
-      <!-- <div class="tile scale-anm playe all imagen">
-        <img src="images/playera4.jpg" alt="" /> 
-      </div> -->
-      <!-- <div class="tile scale-anm rotuve all imagen">     
-        <img src="images/rotuve2.JPG" alt="" />
-      </div> -->
-      <div class="tile scale-anm rotuve  imagen">     
+
+      <div class="tile scale-anm rotuve  imagen visually-hidden-focusable">     
         <img src="images/all-rotuve.png" alt="" />
       </div>
-      <!-- <div class="tile scale-anm promo all imagen">
-        <img src="images/promo5.JPG" alt=""  />
-      </div> -->
-      <div class="tile scale-anm rotuvi imagen">
+    
+      <div class="tile scale-anm rotuvi imagen visually-hidden-focusable">
           <img src="images/all-rotuvi.png" alt="" />
       </div>
-      <!-- <div class="tile scale-anm rotuvi all imagen">
-            <img src="images/rotu1.jpeg" alt="" />
-      </div> -->
-      <!-- <div class="tile scale-anm deco all imagen">
-        <img src="images/deco3.jpg" alt="" />
-      </div> -->
-      <!-- <div class="tile scale-anm rotuvi all imagen">
-        <img src="images/rotu2.jpg" alt="" /> 
-      </div> -->
-      <!-- <div class="tile scale-anm promo all imagen">
-        <img src="images/promo6.png" alt=""  />
-      </div> -->
-      <!-- <div class="tile scale-anm rotuvi all imagen">
-              <img src="images/rotu3.jpeg" alt="" />  
-      </div> -->
-      <!-- <div class="tile scale-anm rotuvi all imagen">
-        <img src="images/rotu4.JPG" alt="" />
-      </div>  -->
-      <!-- <div class="tile scale-anm rotuvi all imagen">
-          <img src="images/rotu5.jpg" alt="" />  
-      </div>  -->
-      <!-- <div class="tile scale-anm rotuve all imagen">     
-        <img src="images/rotuve1.jpg" alt="" />
-      </div> -->
     </div>
     
     <div style="clear:both;"></div>   
@@ -833,14 +762,17 @@
     $(".fil-cat").click(function(){ 
     selectedClass = $(this).attr("data-rel"); 
       $("#portfolio").fadeTo(100, 0.1);
-    $("#portfolio div").not("."+selectedClass).fadeOut().removeClass('scale-anm');
+      $("#portfolio div").not("."+selectedClass).fadeOut().removeClass('scale-anm');
+      $("#portfolio div").not("."+selectedClass).fadeOut().addClass('visually-hidden-focusable');
     setTimeout(function() {
       $("."+selectedClass).fadeIn().addClass('scale-anm');
+      $("."+selectedClass).fadeIn().removeClass('visually-hidden-focusable');
       $("#portfolio").fadeTo(300, 1);
     }, 300); 
 
     });
   });
+
 </script>
 <script type="text/javascript">
         function sendEmail(){
